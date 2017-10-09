@@ -13,6 +13,8 @@ import { DashboardComponent } from './dashboard.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
 import { HeroSearchComponent } from './hero-search.component';
+import { BombComponent } from './bomb/bomb.component';
+import { CodeComponent } from './code/code.component';
 
 @NgModule({
   imports: [
@@ -28,6 +30,8 @@ import { HeroSearchComponent } from './hero-search.component';
     HeroSearchComponent,
     HeroesComponent,
     HeroDetailComponent,
+    BombComponent,
+    CodeComponent,
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]
