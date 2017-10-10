@@ -8,7 +8,6 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BombComponent } from './bomb/bomb.component';
-import { CodeComponent } from './code/code.component';
 
 @NgModule({
   imports: [
@@ -19,8 +18,7 @@ import { CodeComponent } from './code/code.component';
   ],
   declarations: [
     AppComponent,
-    BombComponent,
-    CodeComponent,
+    BombComponent
   ],
   bootstrap: [AppComponent]
 })
